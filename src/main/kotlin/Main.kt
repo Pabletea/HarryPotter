@@ -7,7 +7,7 @@ fun main() {
     ej5.personajes.obtenerTodos().forEach { println(it) }
     println(ej5.personajes.obtenerPersonajesConImagen().size)
     println("Staff");
-    println(ej5.contarStaff());
+    println(ej5.contarStaffMuertos());
 
 }
 

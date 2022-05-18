@@ -44,8 +44,6 @@ public class PersonajeTest {
         System.out.println("Test Staff realizado");
 
 
-
-
     }
 
     @Test
@@ -53,6 +51,10 @@ public class PersonajeTest {
         // TODO Crea una función que cuente a todos los personajes que forman parte del staff de Howarts y que están muertos
         //
         // TODO comprueba que tu función devuelve el número correcto de elementos
+        int out_esperado=8;
+        int out_actual= ej.contarStaffMuertos();
+        Assertions.assertEquals(out_esperado,out_actual);
+        System.out.println("Test Staff muertos realizado");
 
     }
 
