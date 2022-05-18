@@ -84,5 +84,26 @@ public class Ejercicio5 {
 
         return cont;
     }
+    public Personaje[] personajeConString(String cadena){
+        Personaje[] output = new Personaje[personajes.obtenerTodos().length];
+        int i=0;
+        for(Personaje p:personajes.obtenerTodos()){
+            if(p.getName().contains(cadena) && p.getAlive()) {
+                output[i] = p;
+                i++;
+            }
+        }
+        Personaje[] outpu2 = new Personaje[i+1];
+        i=0;
+        for(Personaje p :output){
+            if(p != null){
+                outpu2[i]=p;
+                i++;
+            }
+        }
+
+        return outpu2;
+
+    }
 
 }

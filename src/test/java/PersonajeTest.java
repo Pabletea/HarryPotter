@@ -75,7 +75,7 @@ public class PersonajeTest {
         // TODO Crea una función que reciba un string y devuelva una lista con todos los personajes que tienen ese string
         //  en su nombre y están vivos
         //
-        // TODO comprueba que tu función devuelve el número correcto de elementos
+        // TODO comprueba que tu función devuelve el número correcto de elemento
 
     }
 

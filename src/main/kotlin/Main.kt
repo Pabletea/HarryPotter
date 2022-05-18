@@ -12,6 +12,8 @@ fun main() {
     println(ej5.contarStaffMuertos());
     println("Contienen una letra en concreto");
     println(ej5.contarNombreLetra('a'));
+    println("Personajes con un string en el nombre");
+
 
 }
 
