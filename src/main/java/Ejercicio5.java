@@ -71,5 +71,18 @@ public class Ejercicio5 {
 
         return cont;
     }
+    public int contarNombreLetra(char letra){
+        int cont=0;
+        int i =0;
+        for(Personaje p:personajes.obtenerTodos()){
+            if(p.getName().contains(Character.toString(letra)))
+                cont++;
+
+        }
+
+
+
+        return cont;
+    }
 
 }

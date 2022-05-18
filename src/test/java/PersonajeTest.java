@@ -63,6 +63,10 @@ public class PersonajeTest {
         // TODO Crea una función que reciba una letra (char) y cuente todos personajes tienen esa letra en su nombre
         //
         // TODO comprueba que tu función devuelve el número correcto de elementos
+        int out_esperado=245;
+        int out_actual=ej.contarNombreLetra('a');
+        Assertions.assertEquals(out_esperado,out_actual);
+        System.out.println("Test letra realizado");
 
     }
 

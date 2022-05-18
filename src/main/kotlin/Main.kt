@@ -8,6 +8,10 @@ fun main() {
     println(ej5.personajes.obtenerPersonajesConImagen().size)
     println("Staff");
     println(ej5.contarStaffMuertos());
+    println("Staff muertos");
+    println(ej5.contarStaffMuertos());
+    println("Contienen una letra en concreto");
+    println(ej5.contarNombreLetra('a'));
 
 }
 
