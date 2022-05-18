@@ -32,4 +32,46 @@ public class PersonajeTest {
         System.out.println("Test potters realizado");
     }
 
+
+    @Test
+    public void test3(){
+        // TODO Crea una función que cuente a todos los personajes que forman parte del staff de Howarts y que están vivos
+        //
+        // TODO comprueba que tu función devuelve el número correcto de elementos
+
+    }
+
+    @Test
+    public void test4(){
+        // TODO Crea una función que cuente a todos los personajes que forman parte del staff de Howarts y que están muertos
+        //
+        // TODO comprueba que tu función devuelve el número correcto de elementos
+
+    }
+
+    @Test
+    public void test5(){
+        // TODO Crea una función que reciba una letra (char) y cuente todos personajes tienen esa letra en su nombre
+        //
+        // TODO comprueba que tu función devuelve el número correcto de elementos
+
+    }
+
+    @Test
+    public void test6(){
+        // TODO Crea una función que reciba un string y devuelva una lista con todos los personajes que tienen ese string
+        //  en su nombre y están vivos
+        //
+        // TODO comprueba que tu función devuelve el número correcto de elementos
+
+    }
+
+    @Test
+    public void test7(){
+        // TODO Crea una función que reciba un string y devuelva una lista con todos los personajes que su actor se llama
+        //  exactamente como el string recibido
+
+        // TODO comprueba que tu función devuelve el número correcto de elementos
+
+    }
 }
