@@ -14,8 +14,8 @@ public class PersonajeTest {
         // tip: ej.personajes.obtenerTodos()[0].getImage()
         // TODO comprueba que tu función devuelve el número correcto de elementos
         // tip: es 25
-        int out_esperado =25;
-        int out_actual=ej.personajesConImagen().length;
+        int out_esperado=25;
+        int out_actual=ej.personajes.obtenerPersonajesConImagen().length;
         Assertions.assertEquals(out_esperado,out_actual);
         System.out.println("Test imagen realizado");
     }
@@ -38,6 +38,13 @@ public class PersonajeTest {
         // TODO Crea una función que cuente a todos los personajes que forman parte del staff de Howarts y que están vivos
         //
         // TODO comprueba que tu función devuelve el número correcto de elementos
+        int out_esperado=17;
+        int out_actual= ej.contarStaff();
+        Assertions.assertEquals(out_esperado,out_actual);
+        System.out.println("Test Staff realizado");
+
+
+
 
     }
 

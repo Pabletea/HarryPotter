@@ -32,7 +32,26 @@ public class Ejercicio5 {
         }
 
 
-            return out2;
+        return out2;
+    }
+
+    public int contarStaff(){
+        int cont=0;
+        Personaje[] staff = personajes.obtenerTodos();
+        int i=0;
+        for(Personaje p:personajes.obtenerTodos()){
+            if(p.getHogwartsStaff() && p.getAlive()){
+                staff[i]=p;
+                i++;
+                cont++;
+            }
+
+        }
+
+
+
+
+        return cont;
     }
 
 }
