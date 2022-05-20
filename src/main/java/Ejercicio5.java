@@ -84,7 +84,7 @@ public class Ejercicio5 {
 
         return cont;
     }
-    public Personaje[] personajeConString(String cadena){
+    public  Personaje[] personajeConString(String cadena){
         Personaje[] output = new Personaje[personajes.obtenerTodos().length];
         int i=0;
         for(Personaje p:personajes.obtenerTodos()){
@@ -93,16 +93,45 @@ public class Ejercicio5 {
                 i++;
             }
         }
-        Personaje[] outpu2 = new Personaje[i+1];
+        Personaje[] output2 = new Personaje[i];
         i=0;
         for(Personaje p :output){
             if(p != null){
-                outpu2[i]=p;
+                output2[i]=p;
+
+            }
+        }
+        System.out.println(i);
+
+        for(i=0;i<output2.length;i++){
+            System.out.println(output2[i]);
+        }
+        return output2;
+
+    }
+    public Personaje[] personajeNombreActor(String nombre){
+        Personaje[] output = new Personaje[personajes.obtenerTodos().length];
+        int i=0;
+        for(Personaje p :output){
+            if(p.getActor().equals(nombre)){
+                output[i]=p;
                 i++;
             }
         }
+        Personaje[] output2 = new Personaje[i];
+        i=0;
+        for(Personaje p :output){
+            if(p != null){
+                output2[i]=p;
 
-        return outpu2;
+            }
+        }
+        for(i=0;i<output2.length;i++){
+            System.out.println(output2[i]);
+        }
+        return output2;
+
+
 
     }
 

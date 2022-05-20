@@ -77,7 +77,16 @@ public class PersonajeTest {
         //
         // TODO comprueba que tu función devuelve el número correcto de elemento
 
-    }
+        Integer out_esperado=3;
+        Integer out_real=ej.personajeConString("Potter").length;
+        Assertions.assertEquals(out_esperado,out_real);
+        System.out.println("Test String realizado");
+
+
+
+        }
+
+
 
     @Test
     public void test7(){
@@ -85,6 +94,12 @@ public class PersonajeTest {
         //  exactamente como el string recibido
 
         // TODO comprueba que tu función devuelve el número correcto de elementos
+
+        Integer out_esperado=1;
+        Integer out_real=ej.personajeNombreActor("Luke").length;
+        Assertions.assertEquals(out_esperado,out_real);
+        System.out.println("Test String realizado");
+
 
     }
 }

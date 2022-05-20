@@ -13,6 +13,9 @@ fun main() {
     println("Contienen una letra en concreto");
     println(ej5.contarNombreLetra('a'));
     println("Personajes con un string en el nombre");
+    println(ej5.personajeConString("Potter"));
+    println("Personajes con un nombre de actor");
+    println(ej5.personajeNombreActor("Luke"));
 
 
 }
